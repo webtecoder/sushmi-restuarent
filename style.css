@@ -1,0 +1,483 @@
+/* Basic typograpgy */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover { text-decoration: none }
+a:focus { outline: 0 solid; text-decoration: none}
+img {
+    max-width: 100%;
+    height: auto;
+}
+input:focus, button:focus, textarea:focus, a:focus {outline: none}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+p:last-child {
+    margin-bottom: 0
+}
+/* common typography */
+.border-btn a{
+    color: #ff7f7f;
+  
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 60px;
+}
+/* ===================
+HEADER STYLE START
+=======================
+*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    position: relative;
+   
+}
+.header-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+.background-change{
+    background:#fa7672;
+    opacity: 0.7;
+    color:#ffff;
+    height: 100px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color:#ffff;
+    display: block;
+    font-size:15px;
+    padding:20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.search-area {
+    padding: 60px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 60px;
+}
+/* ===================
+HEADER STYLE END
+=======================
+*/
+
+/* ===================
+Delicious STYLE START
+=======================
+*/
+
+#delicious-area{
+    background: url('./assets/img/hand.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* padding-bottom: 150px; */
+      height:1025px;
+     max-width: 100%;
+    margin:auto; 
+    position: relative;
+    /* padding: 240px 0; */
+} 
+/* .overlay {
+    position: absolute;
+    background:rgb(250, 118, 114,0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+} */
+.content-area {
+    color: #fff;
+    padding-top: 270px;
+}
+.content-area h2 {
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-weight: 800;
+}
+.border-btn {
+    margin-top: 30px;
+  
+}
+.border-btn a{
+    color: #fa7672;
+    display: inline-block;
+    padding: 15px 60px;
+    border-radius: 80px;
+    background: #ffff;
+    transition: 0.5s;
+}
+.border-btn :hover {
+    color: #ffff;
+    background: #fa7672;
+  
+}
+
+/* ===================
+DELICIOUS STYLE END
+=======================
+*/
+
+/* ===================
+BEST SELLER STYLE START
+=======================
+*/
+.best-seller{
+    background:#ff7f7f ;
+    margin-top: -283px;
+    color: #ffff;
+   
+   
+}
+.gallary {
+    position: absolute;
+    top: 85px;
+    left: -104px;
+}
+.gallary-1 {
+    position: absolute;
+    top: 18px;
+    right: -80px;
+}
+.content-box h5 {
+    font-size: 40px;
+}
+.heading-area {
+    text-align: center;
+   padding-top: 180px;
+}
+.best-seller-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+/*======================
+ BEST TASTY STYLE START 
+===========================
+*/
+section.best-tasty {
+    padding: 100px 0;
+}
+
+.best-tasty .border-btn {
+    margin-top: 50px;
+}
+.best-tasty .heading-area {
+    text-align: justify;
+    color: #ff7f7f;
+    padding-top: 65px;
+    padding-bottom: 100px;
+}
+.best-tasty .border-btn a{
+    color: #ffff;
+    display: inline;
+    padding: 15px 60px;
+    border-radius: 80px;
+    background: #ff7f7f;
+    transition: 0.5s;
+}
+
+.best-tasty .border-btn:hover a {
+  background: blueviolet;
+  color: orange;
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+    margin-top: -120px;
+}
+/*======================
+ BEST TASTY STYLE END 
+===========================
+*/
+
+/*======================
+ STATISTICS STYLE START
+===========================
+*/
+
+.statistics-area {
+    text-align: center;
+    background: #ff7f7f;
+    color: #ffff;
+    padding: 100px 0;
+    margin-top: -100px;
+}
+.statistics-heading {
+    padding: 10px;
+    position: relative;
+}
+.statistics-heading h4 {
+    text-transform: uppercase;
+}
+.circle-box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    
+}
+.circle-content h4 {
+    font-size: 45px;
+    font-weight: bold;
+  }
+  .circle-content h5 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+.circle-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin: 50%; */
+}
+.circle-content-area {
+    padding: 100px 0;
+   text-transform: uppercase;
+   
+}
+.statistics-left-imgage {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.statistics-right-imgage {
+    position: absolute;
+    right: 0;
+    top:-70px;
+}
+/*======================
+ STATISTICS STYLE END
+===========================
+*/
+/*======================
+ BEST DELICIOUS STYLE START
+===========================
+*/
+section.best-Delicious {
+    padding: 150px 0;
+    position: relative;
+}
+.heading-delicious {
+    color:  #ff7f7f;
+    padding-top: 60px;
+}
+.best-area {
+    position: relative;
+}
+
+.best-img-left {
+    position: absolute;
+    top: -100px;
+    left: 0;
+}
+.best-img-right {
+    position: absolute;
+    top: -78px;
+    right: -61px;
+}
+.best-img-bottom {
+    position: absolute;
+    bottom: -20%;
+    right: 40%;
+}
+.best-Delicious .best-img-top {
+    position: absolute;
+    top: -60px;
+    right: 40%;
+}
+.best-Delicious .border-btn a{
+    color: #ffff;
+    display: inline;
+    padding: 15px 60px;
+    border-radius: 80px;
+    background: #ff7f7f;
+    transition: 0.5s;
+}
+.best-Delicious .border-btn a:hover{
+    background-color: #ffff;
+    color: #ff7f7f;
+}
+/*======================
+ BEST DELICIOUS STYLE END
+===========================
+*/
+
+/*======================
+ FOODER-PLATE STYLE START
+===========================
+*/
+.fooder-plate{
+    background-image: url('./assets/img/fooder-plate.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* height: 974px; */
+    position: relative;
+    width: 100%;
+    padding: 362px 0;
+}
+.image-content-area {
+   
+    color: #fff;
+}
+.image-content-area img{
+    padding-top: 90px;
+}
+.fooder-plate-overlay {
+    position: absolute;
+    background:rgb(250, 118, 114,0.3);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.image-content-area p {
+   margin: 50px 0;
+}
+/*======================
+ FOODER-PLATE STYLE END
+===========================
+*/
+/*======================
+ SUBSCRIBE-AREA STYLE START
+===========================
+*/
+section.subscribe-area {
+    /* padding-top: 170px; */
+    color:  #ff7f7f;
+    position: relative;
+    background-image: url('./assets/img/bg-curve.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 132px 0;
+    
+}
+.subscribe-zone{
+    position: relative;
+    padding-bottom: 230px;
+}
+.image-left-area {
+    position: absolute;
+    top: -53px;
+    left: -56px;
+}
+
+.image-right-area {
+    position: absolute;
+    top: -104px;
+    right: 81px;
+}
+
+.img-bottom-area {
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+}
+section form {
+    margin-top: 80px;
+    position: relative;
+}
+section input[type=email]{
+    border-radius: 20px;
+}
+section input[type=submit] {
+    color: #fff;
+    border-radius: 20px;
+    background: #ff7f7f;
+    position: absolute;
+    top: 0;
+    right: 264px;
+}
+
+
+/*======================
+ SUBSCRIBE-AREA STYLE END
+===========================
+*/
+
+
+/*======================
+ FOOTER-AREA STYLE START
+===========================
+*/
+
+footer.footer {
+    background: #111111;
+    color: #ffff;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.footer-content h5,.footer-about h5, .footer-services h5,.footer-other h5 {
+    font-size: 20px;
+    text-align: left;
+}
+.footer-content p {
+    text-align: left;
+}
+.footer-social-media ul li i {
+    transition: 0.3s;
+   
+}
+
+.footer-social-media ul li:hover i {
+    transform: rotate(360deg);
+}
+.footer-about ul {
+    padding: 0;
+    margin: 0;
+}
+.fab {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 23px;
+    color: #111111;
+    text-align: center;
+}
+.footer-about ul li a, .footer-history ul li a, .footer-services ul li a, .footer-other ul li a {
+    color: #fff;
+    padding-top: 8px;
+    display: block;
+    font-weight: 400;
+    text-align: left;
+}
+.footer-social-media.pt-4 {
+    margin-left: 142px;
+}
+/*======================
+ FOOTER-AREA STYLE END
+===========================
+*/

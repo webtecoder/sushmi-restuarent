@@ -1,0 +1,103 @@
+/* Medium Layout: 1280px. */
+@media only screen and (max-width: 1200px) { 
+    .gallary-1 {
+        right: 4px;
+    }
+    section input[type="submit"] {
+        right: 232px;
+    }
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+    .gallary-1 {
+        right: -31px;
+    }
+    section input[type="submit"] {
+        right: 172px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+/* @media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .gallary-1 {
+        right: 7px;
+    }
+    .gallary {
+        left: -31px;
+    }
+    
+} */
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    section input[type="submit"] {
+        right: 128px;
+    }
+    .gallary {
+        left: -35px;
+    }
+    .best-tasty .heading-area {
+        text-align: center;
+    }
+    .content-box {
+        margin-bottom: 15px;
+    }
+    .statistics-left-imgage {
+        left: -77px;
+    }
+    .statistics-right-imgage {
+        right: -80px;
+    }
+    .circle-content-area {
+        padding: 40px 0;
+    }
+    .circle-box {
+        margin-bottom: 20px;
+    }
+    .heading-delicious {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .best-img-bottom {
+        bottom: -15%;
+       
+    }
+   .footer-content p {
+        text-align: center !important;
+      }
+      .footer-content h5,.footer-about h5, .footer-services h5,.footer-other h5 {
+        text-align: center;
+    }
+      .footer-about ul li a, .footer-history ul li a, .footer-services ul li a, .footer-other ul li a {
+        text-align: center;
+    }
+    .footer-about,.footer-services {
+        margin: 30px 0;
+    }
+}
+
+@media only screen and (max-width: 575px) { 
+    section input[type="submit"] {
+        position: static;
+        margin: auto;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .form-control.w-25 {
+        width: 100% !important;
+    }
+    .form-control.w-50.m-auto {
+        width: 100%!important;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (max-width: 480px){ 
+    section input[type="submit"] {
+        position: static;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .footer-social-media.pt-4 {
+        margin-left: 108px;
+    }
+    
+}
