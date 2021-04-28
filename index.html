@@ -27,7 +27,22 @@
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button>
-          
+
+						<!-- OFF CANVAS OVERLAY -->
+						<div id="mySidenav" class="sidenav">
+							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+							<a href="#">Home</a>
+							<a href="#">Product</a>
+							<a href="#">Promo</a>
+							<a href="#">About</a>
+							<a href="#">Contact</a>
+						  </div>
+						  
+						  <div id="main">
+							<span style="font-size:30px;cursor:pointer" class="bars" onclick="openNav()">&#9776;</span>
+						  </div>
+						<!-- OFF CANVAS OVERLAY -->
+
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                           <ul class="navbar-nav m-auto">
                             <li class="nav-item active">
@@ -97,12 +112,11 @@
 				</div>
 				<div class="col-md-2"></div>
               <div class="col-md-3">
-                <img src="assets/img/1.png" alt="">
+                <img src="assets/img/1.png" class="best-image" alt="">
                 <div class="content-box">
                   <h5>Title Here</h5>
                   <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit.</p>
                 </div>
-
               </div> <!-- /.col -->
               <div class="col-md-3">
                 <img src="assets/img/2.png" alt="">
@@ -350,18 +364,11 @@
 
 
 
-
-
-
-
-
-
-
-
-    <!-- <div style="margin-bottom: 500px;"></div> -->
-  
-   
-
+<!-- =======================================SCROLL TO TOP =======================-->
+<a href="javascript:void(0)" class="scroll-show" id="scroll">
+	<i class="fas fa-angle-double-up"></i>
+	<!-- TOP -->
+</a>
 
 
 
@@ -371,5 +378,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/main.js"></script>
 </body>
 </html>

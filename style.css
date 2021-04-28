@@ -47,6 +47,52 @@ body{
     font-family: 'Montserrat', sans-serif;
     /* overflow-x: hidden; */
 }
+
+/* OFF CANVS OVERLAY */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+/* OFF CANVS OVERLAY */
 .header {
     position: relative;
    
@@ -59,11 +105,17 @@ body{
     height: 100%;
     z-index: 9999;
 }
+.bars {
+    display: none;
+}
 .background-change{
     background:#fa7672;
     opacity: 0.7;
     color:#ffff;
     height: 100px;
+}
+.navbar-light .navbar-toggler-icon {
+    display: none;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -74,6 +126,9 @@ body{
     text-transform: uppercase;
     font-weight: 600;
     width: 100%;
+}
+#navbarSupportedContent {
+    display: none;
 }
 
 .search-area {
@@ -483,3 +538,19 @@ footer.footer {
  FOOTER-AREA STYLE END
 ===========================
 */
+/* SCROLL TO TOP CSS */
+a.scroll-show {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background: black;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px;
+    font-size: 30px;
+}

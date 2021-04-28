@@ -29,6 +29,9 @@
 } */
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
+    .bars {
+        display: block!important;
+    }
     .statistics-area {
         margin-top: -105px;
     }
@@ -125,6 +128,15 @@
     }
     .statistics-heading h4 {
         font-size: 45px;
+    }
+    .heading-delicious h4 {
+        font-size: 45px;
+    }
+    .fooder-plate-overlay h4 {
+        font-size: 45px;
+    }
+    .best-image {
+        margin-top: 33px !important;
     }
     .statistics-left-imgage {
         top: -84px;
