@@ -29,6 +29,9 @@
 } */
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
+    .statistics-area {
+        margin-top: -105px;
+    }
     section input[type="submit"] {
         right: 128px;
     }
@@ -40,6 +43,9 @@
     }
     .content-box {
         margin-bottom: 15px;
+    }
+    .statistics-area {
+        margin-top: -133px;
     }
     .statistics-left-imgage {
         left: -77px;
@@ -73,6 +79,13 @@
     .footer-about,.footer-services {
         margin: 30px 0;
     }
+    .footer-social-media.pt-4 {
+        margin-left: 131px;
+    }
+    /* #delicious-area{
+        width:100%;
+    } */
+
 }
 
 @media only screen and (max-width: 575px) { 
@@ -88,9 +101,47 @@
     .form-control.w-50.m-auto {
         width: 100%!important;
     }
+    .gallary-1 {
+        right: 50px;
+    }
+    .gallary {
+        left: 27px;
+    }
+    .statistics-right-imgage {
+        right: 28px;
+        top: -93px;
+    }
+    .statistics-left-imgage {
+        left: 10px;
+    }
+    .best-img-right {
+        right: 45px;
+    }
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (max-width: 480px){ 
+    .heading-area h4 {
+        font-size: 45px;
+    }
+    .statistics-heading h4 {
+        font-size: 45px;
+    }
+    .statistics-left-imgage {
+        top: -84px;
+    }
+    .heading-area p {
+        margin-bottom: 25px;
+    }
+    .image-left-area {
+        top: -107px;
+        left: 8px;
+    }
+    .gallary {
+        top: -12px;
+    }
+    .content-area h2 {
+        font-size: 45px;
+    }
     section input[type="submit"] {
         position: static;
         margin: auto;

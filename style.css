@@ -45,6 +45,7 @@ HEADER STYLE START
 */
 body{
     font-family: 'Montserrat', sans-serif;
+    /* overflow-x: hidden; */
 }
 .header {
     position: relative;
@@ -72,6 +73,7 @@ body{
     padding:20px;
     text-transform: uppercase;
     font-weight: 600;
+    width: 100%;
 }
 
 .search-area {
@@ -89,10 +91,9 @@ HEADER STYLE END
 Delicious STYLE START
 =======================
 */
-
 #delicious-area{
     background: url('./assets/img/hand.png');
-    background-size: cover;
+    background-size: cover !important;
     background-position: center center;
     background-repeat: no-repeat;
     /* padding-bottom: 150px; */
@@ -101,7 +102,8 @@ Delicious STYLE START
     margin:auto; 
     position: relative;
     /* padding: 240px 0; */
-} 
+}
+
 /* .overlay {
     position: absolute;
     background:rgb(250, 118, 114,0.5);
@@ -475,7 +477,7 @@ footer.footer {
     text-align: left;
 }
 .footer-social-media.pt-4 {
-    margin-left: 142px;
+    margin-left: -1px;
 }
 /*======================
  FOOTER-AREA STYLE END
