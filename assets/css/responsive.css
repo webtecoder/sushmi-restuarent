@@ -32,6 +32,9 @@
     .bars {
         display: block!important;
     }
+    .image-content-area p {
+        font-size: 18px;
+    }
     .statistics-area {
         margin-top: -105px;
     }
