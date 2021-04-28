@@ -26,8 +26,9 @@ h4,
 h5,
 h6 {
     margin: 0 0 15px;
-    font-weight: 700;
+    font-weight: 600;
 }
+
 p:last-child {
     margin-bottom: 0
 }
@@ -38,6 +39,10 @@ p:last-child {
 }
 h1,h2,h3,h4,h5,h6{
     font-size: 60px;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
 }
 /* ===================
 HEADER STYLE START
@@ -261,8 +266,8 @@ section.best-tasty {
 }
 
 .best-tasty .border-btn:hover a {
-  background: blueviolet;
-  color: orange;
+  background:#ffff;
+  color: #ff7f7f;
 }
 svg {
     overflow: hidden;
@@ -394,7 +399,7 @@ section.best-Delicious {
 ===========================
 */
 .fooder-plate{
-    background-image: url('./assets/img/fooder-plate.png');
+    background-image: url('./assets/img/vegetable.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -421,6 +426,7 @@ section.best-Delicious {
 }
 .image-content-area p {
    margin: 50px 0;
+   font-size: 30px;
 }
 /*======================
  FOODER-PLATE STYLE END
@@ -495,6 +501,12 @@ footer.footer {
     color: #ffff;
     padding-top: 120px;
     padding-bottom: 120px;
+    position: relative
+}
+img.footer-image {
+    top: -62px;
+    right: 236px;
+    position: absolute;
 }
 .footer-content h5,.footer-about h5, .footer-services h5,.footer-other h5 {
     font-size: 20px;
