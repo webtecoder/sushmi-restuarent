@@ -289,7 +289,7 @@ svg {
     background: #ff7f7f;
     color: #ffff;
     padding: 100px 0;
-    margin-top: -100px;
+    margin-top: -122px;
 }
 .statistics-heading {
     padding: 10px;
@@ -399,17 +399,18 @@ section.best-Delicious {
 ===========================
 */
 .fooder-plate{
-    background-image: url('./assets/img/vegetable.jpg');
+    background-image: url('./assets/img/fooder-plate.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     /* height: 974px; */
     position: relative;
     width: 100%;
-    padding: 362px 0;
+    padding: 350px 0;
+
 }
 .image-content-area {
-   
+   opacity: 1!important;
     color: #fff;
 }
 .image-content-area img{
@@ -417,16 +418,19 @@ section.best-Delicious {
 }
 .fooder-plate-overlay {
     position: absolute;
-    background:rgb(250, 118, 114,0.3);
+    /* background:rgba(88, 58, 57, 0.7); */
+    background-color: #ff7f7f;
+    opacity: 0.5;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    z-index: 99;
+   bottom: 0;
+   right: 0;
 }
 .image-content-area p {
-   margin: 50px 0;
-   font-size: 30px;
+   margin: 25px 0;
+   font-size: 25px;
 }
 /*======================
  FOODER-PLATE STYLE END
@@ -482,6 +486,19 @@ section input[type=submit] {
     position: absolute;
     top: 0;
     right: 264px;
+}
+.form-control.w-50.m-auto {
+    width: 70%;
+    background-color: #f4f4f4;
+    color: #9b9b9b;
+    border: none!important;
+}
+.form-control:focus {
+    outline: 0;
+    box-shadow:unset;
+}
+.form-control.w-25 {
+    width: 15% !important;
 }
 
 

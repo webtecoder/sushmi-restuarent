@@ -13,7 +13,13 @@
         right: -31px;
     }
     section input[type="submit"] {
-        right: 172px;
+        right: 103px;
+    }
+    .form-control.w-50.m-auto {
+        width: 70%!important;
+    }
+    .form-control.w-25 {
+        width: 20% !important;
     }
 }
 
@@ -38,9 +44,7 @@
     .statistics-area {
         margin-top: -105px;
     }
-    section input[type="submit"] {
-        right: 128px;
-    }
+    
     .gallary {
         left: -35px;
     }
@@ -73,6 +77,15 @@
         bottom: -15%;
        
     }
+    .form-control.w-25 {
+        width: 25% !important;
+        right: 25px;
+    }
+
+    /* section input[type="submit"] {
+        right: 128px!important;
+    } */
+
    .footer-content p {
         text-align: center !important;
       }
@@ -119,6 +132,12 @@
     }
     .statistics-left-imgage {
         left: 10px;
+    }
+    .statistics-heading h4 {
+        font-size: 45px;
+    }
+    .statistics-heading p {
+        margin-top: 40px;
     }
     .best-img-right {
         right: 45px;
